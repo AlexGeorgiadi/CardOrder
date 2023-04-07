@@ -17,9 +17,8 @@ public class CardOrderTest {
 
     @BeforeAll
     static void setUpAll() {
-        System.setProperty("webdriver.chrome.driver", "/Users/alextos/Desktop/CardOrder/driver/mac/chromedriver");
+        System.setProperty("webdriver.chrome.driver", ".driver/mac/chromedriver");
         WebDriverManager.chromedriver().setup();
-
     }
     @BeforeEach
         void setUp() {
