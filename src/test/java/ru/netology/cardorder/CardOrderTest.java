@@ -31,7 +31,6 @@ public class CardOrderTest {
     @AfterEach
     void tearDown() {
         driver.quit();
-        driver = null;
     }
     @Test
     void shouldTestV1() throws InterruptedException {
